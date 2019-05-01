@@ -24,6 +24,3 @@ function currentLine(arr) {
 
   return `The line is currently: ` + orderedList.slice(0, -2);
 }
-
-string = "This sentence"
-string.slice(0, -2) // => "This senten"
