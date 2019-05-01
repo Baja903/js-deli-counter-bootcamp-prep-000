@@ -8,8 +8,7 @@ function nowServing(arr) {
   if (arr.length == 0) {
     return 'There is nobody waiting to be served!'
   }
-  let current = arr[0]
-  arr.shift()
+  let current = arr.shift()
   return `Currently serving ${current}.`
 }
 
