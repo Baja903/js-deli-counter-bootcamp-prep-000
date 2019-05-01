@@ -3,6 +3,9 @@ function takeANumber(arr, name) {
   return `Welcome, ${name}. You are number ${arr.indexOf(name) + 1} in line.`
 };
 
+namesArray = ["Ada", "Peter", "Sam"]
+namesArray.indexOf("Ada") // => 0
+namesArray.indexOf("Sam") // => 2
 
 function nowServing(arr) {
 
