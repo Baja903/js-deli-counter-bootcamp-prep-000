@@ -7,7 +7,6 @@ name = "Peter"
 number = 2
 "Welcome " + name + ". You are number " + number + " in line"
 `Welcome ${name}. You are number 2 in line`
-"" '' ``
 
 
 function nowServing(arr) {
