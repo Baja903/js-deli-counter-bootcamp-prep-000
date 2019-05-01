@@ -3,6 +3,13 @@ function takeANumber(arr, name) {
   return `Welcome, ${name}. You are number ${arr.indexOf(name) + 1} in line.`
 };
 
+name = "Peter"
+number = 2
+"Welcome " + name + ". You are number " + number + " in line"
+`Welcome ${name}. You are number 2 in line`
+"" '' ``
+
+
 function nowServing(arr) {
 
   if (arr.length == 0) {
